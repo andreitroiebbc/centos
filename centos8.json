@@ -1,0 +1,13 @@
+{
+  "_comment": "Build with `packer build -var-file=centos8.json centos.json`",
+  "vm_name": "centos8",
+  "cpus": "1",
+  "disk_size": "65536",
+  "http_directory": "kickstart/centos8",
+  "iso_checksum": "3ee3f4ea1538e026fff763e2b284a6f20b259d91d1ad5688f5783a67d279423b",
+  "iso_checksum_type": "sha256",
+  "iso_name": "CentOS-8.1.1911-x86_64-dvd1.iso",
+  "iso_url": "http://mozart.ee.ic.ac.uk/CentOS/8.1.1911/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso",
+  "memory": "2048",
+  "parallels_guest_os_type": "centos8"
+}
