@@ -10,7 +10,6 @@
       "headless": "{{ user `headless` }}",
       "http_directory": "{{ user `http_directory` }}",
       "iso_checksum": "{{ user `iso_checksum` }}",
-      "iso_checksum_type": "{{ user `iso_checksum_type` }}",
       "iso_urls": [
         "{{ user `iso_path` }}/{{ user `iso_name` }}",
         "{{ user `iso_url` }}"
@@ -41,7 +40,6 @@
       "headless": "{{ user `headless` }}",
       "http_directory": "{{ user `http_directory` }}",
       "iso_checksum": "{{ user `iso_checksum` }}",
-      "iso_checksum_type": "{{ user `iso_checksum_type` }}",
       "iso_urls": [
         "{{ user `iso_path` }}/{{ user `iso_name` }}",
         "{{ user `iso_url` }}"
@@ -77,7 +75,6 @@
       "guest_os_type": "{{ user `parallels_guest_os_type` }}",
       "http_directory": "{{ user `http_directory` }}",
       "iso_checksum": "{{ user `iso_checksum` }}",
-      "iso_checksum_type": "{{ user `iso_checksum_type` }}",
       "iso_urls": [
         "{{ user `iso_path` }}/{{ user `iso_name` }}",
         "{{ user `iso_url` }}"
@@ -173,7 +170,6 @@
     "https_proxy": "{{env `https_proxy`}}",
     "install_vagrant_key": "true",
     "iso_checksum": "ec7500d4b006702af6af023b1f8f1b890b6c7ee54400bb98cef968b883cd6546",
-    "iso_checksum_type": "sha256",
     "iso_name": "CentOS-7-x86_64-DVD-1708.iso",
     "iso_path": "iso",
     "iso_url": "http://mirrors.kernel.org/centos/7.4.1708/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso",
