@@ -1,0 +1,12 @@
+{
+  "_comment": "Build with `packer build -var-file=centos8.json centos.json`",
+  "vm_name": "rocky8",
+  "cpus": "1",
+  "disk_size": "65536",
+  "http_directory": "kickstart/centos8",
+  "iso_checksum": "sha256:ffe2fae67da6702d859cfb0b321561a5d616ce87a963d8a25b018c9c3d52d9a4",
+  "iso_name": "Rocky-8.4-x86_64-dvd1.iso",
+  "iso_url": "https://uk.mirrors.clouvider.net/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso",
+  "memory": "2048",
+  "parallels_guest_os_type": "centos8"
+}
