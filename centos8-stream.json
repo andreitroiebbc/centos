@@ -1,0 +1,12 @@
+{
+  "_comment": "Build with `packer build -var-file=centos8-stream.json centos.json`",
+  "vm_name": "centos8-stream",
+  "cpus": "1",
+  "disk_size": "65536",
+  "http_directory": "kickstart/centos8",
+  "iso_checksum": "sha256:dfea9a5200d1fea9b96816cb2d0caffc7d5354cf5e914690d78fcd0962a0b6a9",
+  "iso_name": "CentOS-Stream-8-x86_64-20211109-dvd1.iso",
+  "iso_url": "http://mirror.ox.ac.uk/sites/mirror.centos.org/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20211109-dvd1.iso",
+  "memory": "2048",
+  "parallels_guest_os_type": "centos8"
+}
