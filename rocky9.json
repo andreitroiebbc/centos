@@ -1,0 +1,12 @@
+{
+  "_comment": "Build with `packer build -var-file=rocky9.json centos.json`",
+  "vm_name": "rocky9",
+  "cpus": "1",
+  "disk_size": "65536",
+  "http_directory": "kickstart/centos9",
+  "iso_checksum": "sha256:e20445907daefbfcdb05ba034e9fc4cf91e0e8dc164ebd7266ffb8fdd8ea99e7",
+  "iso_name": "Rocky-9.4-x86_64-dvd.iso",
+  "iso_url": "https://uk.mirrors.clouvider.net/rocky/9.4/isos/x86_64/Rocky-9.4-x86_64-dvd.iso",
+  "memory": "2048",
+  "parallels_guest_os_type": "centos9"
+}
